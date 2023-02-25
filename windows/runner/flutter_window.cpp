@@ -11,7 +11,7 @@ FlutterWindow::~FlutterWindow() {}
 
 bool FlutterWindow::OnCreate() {
   if (!Win32Window::OnCreate()) {
-    return false;
+    return false
   }
 
   RECT frame = GetClientArea();
